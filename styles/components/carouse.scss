@@ -1,0 +1,21 @@
+.carousel-root {
+  flex: 1 1;
+  height: 50vh;
+
+  @media only screen and (max-width: 700px) {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+}
+
+.carousel__item {
+  width: 100%;
+
+  img {
+    height: 500px;
+    object-fit: contain;
+  }
+}

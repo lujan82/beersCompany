@@ -1,0 +1,37 @@
+{
+  "home": {
+    "discover": "Descubre nuestras cervezas",
+    "premium": "Cervezas Premium",
+    "history": "Historia",
+    "jobs": "Trabajo",
+    "shop": "Tienda"
+  },
+  "shop": {
+    "ourProducts": "Nuestros productos",
+    "ourBest": "Mas vendidos",
+    "ourPremium": "Nuestras cervezas premium"
+  },
+  "history": {
+    "ourHistory": "Nuestra historia",
+    "since": "Desde 1979"
+  },
+  "contact" : {
+    "comeUs": "Vente!",
+    "send": "Enviar mensaje",
+    "firstName": "Nombre *",
+    "lastName": "Apellido *",
+    "phone": "Teléfono",
+    "email": "Correo *",
+    "yourQuestion": "Tu pregunta *"
+  },
+  "jobs": {
+    "title": "Trabajo",
+    "subTitle": "Hacia tu próxima aventura",
+    "ourPhilosophy": "Nuestra Filosofía"
+  },
+  "wt" : {
+    "ambassadors": "Embajadores",
+    "team": "Equipo",
+    "openVideo": "Abrir video"
+  }
+}

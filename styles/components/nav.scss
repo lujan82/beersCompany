@@ -1,0 +1,131 @@
+.nav {
+  position: relative;
+  z-index: 1;
+  width: 250px;
+  height: 100%;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  background: var(--main-color);
+
+  @media only screen and (max-width: 700px) {
+    position: fixed;
+    left: -250px;
+    padding: 18px;
+    transition: .3s;
+
+    &.open {
+      left: 0;
+      transition: .3s;
+    }
+  }
+
+  .isfixed & {
+    position: fixed;
+  }
+
+  &__container-img {
+    width: 120px;
+    margin: 50px auto 80px;
+
+    @media only screen and (max-width: 700px) {
+      margin: 40px auto;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  li {
+    margin: 25px 0;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0;
+    letter-spacing: 2px;
+    list-style: none;
+
+    &:hover span::after {
+      left: 0;
+      width: 100%;
+    }
+  }
+
+  &__link {
+
+    a {
+      position: relative;
+      text-transform: capitalize;
+    }
+
+    span {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        width: 0%;
+        height: 2px;
+        background-color: var(--black-color);
+        transition: all .15s ease-in-out;
+      }
+    }
+
+    &-active {
+      border-bottom: 2px solid var(--black-color);
+
+      &-off {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__external-links {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    display: flex;
+    width: 100px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .languages {
+
+    button {
+      padding: 2px;
+      margin: 0 5px;
+      font-size: 14px;
+      font-weight: 560;
+      color: var(--grey-color);
+      cursor: pointer;
+      border: 0;
+      border-radius: 0;
+    }
+
+    .active {
+      border-bottom: 2px solid var(--grey-color);
+    }
+  }
+
+  &__text-info {
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--title-color);
+
+    &.logout {
+      margin-top: 40px;
+      font-family: "Fira Sans", sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      list-style: none;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.container-blog {
+  position: relative;
+}
+
+.blog {
+
+  &__list-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+    @media only screen and (max-width: 1200px) {
+      padding: 40px 20px;
+    }
+  }
+
+  &__post {
+    width: 48%;
+    margin-bottom: 65px;
+  }
+
+  &__img {
+    height: 300px;
+    margin-bottom: 15px;
+  }
+
+  &__date {
+    margin-bottom: 6px;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    margin-bottom: 30px;
+  }
+
+  &__read {
+    width: fit-content;
+    padding: 10px;
+    margin: 0 0 0 auto;
+    text-transform: uppercase;
+    border: 3px solid black;
+  }
+}

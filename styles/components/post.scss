@@ -1,0 +1,43 @@
+.post {
+  position: relative;
+
+  &__content {
+    max-width: 720px;
+    padding: 40px 60px;
+    margin: auto;
+
+    @media only screen and (max-width: 600px) {
+      padding: 40px 20px;
+    }
+  }
+
+  h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 1.35;
+  }
+
+  &__prev-next-container {
+    display: flex;
+    padding: 0 60px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 700px) {
+      padding: 0 20px;
+    }
+  }
+
+  .inactive {
+    pointer-events: none;
+    opacity: .3;
+  }
+}

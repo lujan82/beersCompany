@@ -1,0 +1,37 @@
+{
+  "home": {
+    "discover": "Discover our beers",
+    "premium": "Premium Beers",
+    "history": "History",
+    "jobs": "Jobs",
+    "shop": "Shop"
+  },
+  "shop": {
+    "ourProducts": "Our products",
+    "ourBest": "Our best sellers",
+    "ourPremium": "Our premium beers"
+  },
+  "history": {
+    "ourHistory": "Our History",
+    "since": "Since 1979"
+  },
+  "contact" : {
+    "comeUs": "Come to us!",
+    "send": "Send your message",
+    "firstName": "First name *",
+    "lastName": "Last name *",
+    "phone": "Phone",
+    "email": "Email *",
+    "yourQuestion": "Your question *"
+  },
+  "jobs": {
+    "title": "Jobs",
+    "subTitle": "Onto  your next adventure",
+    "ourPhilosophy": "Our Philosophy"
+  },
+  "wt" : {
+    "ambassadors": "Ambassadors",
+    "team": "Team",
+    "openVideo": "Open Video"
+  }
+}

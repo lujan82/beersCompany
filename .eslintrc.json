@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    //"airbnb-base",
+    "plugin:react/recommended",
+    "standard"
+    //"prettier",
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "indentation": "tab"
+  }
+}
