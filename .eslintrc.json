@@ -6,11 +6,7 @@
     "node": true
   },
   "plugins": ["simple-import-sort", "react"],
-  "extends": [
-    "plugin:react/recommended"
-    // "standard"
-    //"prettier",
-  ],
+  "extends": ["plugin:react/recommended"],
 
   "overrides": [
     {

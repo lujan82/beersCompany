@@ -4,7 +4,7 @@
   min-height: 100vh;
   font-size: 40px;
   font-weight: 700;
-  color: #ffffff;
+  color: #FFFFFF;
   text-transform: uppercase;
 
   @media only screen and (max-width: 700px) {
@@ -12,7 +12,7 @@
   }
 
   a {
-    color: #ffffff;
+    color: #FFFFFF;
   }
 }
 
@@ -44,7 +44,7 @@
 
   &:hover p {
     opacity: 1;
-    transition: 0.3s;
+    transition: .3s;
   }
 
   p {
@@ -55,7 +55,7 @@
     margin: auto;
     font-size: 14px;
     opacity: 0;
-    transition: 0.3s;
+    transition: .3s;
     align-items: center;
   }
 }
@@ -90,7 +90,7 @@
 .iframe {
   width: 640px;
   height: 360px;
-  border: 2px solid #ffffff;
+  border: 2px solid #FFFFFF;
   box-shadow: 0 0 4px 0;
 
   @media only screen and (max-width: 660px) {
