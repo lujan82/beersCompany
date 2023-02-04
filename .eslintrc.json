@@ -1,18 +1,53 @@
 {
   "env": {
     "browser": true,
-    "es2020": true
+    "es2020": true,
+    "commonjs": true,
+    "node": true
   },
+  "plugins": ["simple-import-sort", "react"],
   "extends": [
-    //"airbnb-base",
-    "plugin:react/recommended",
-    "standard"
+    "plugin:react/recommended"
+    // "standard"
     //"prettier",
   ],
-  "parserOptions": {
-    "ecmaVersion": 2018
-  },
+
+  "overrides": [
+    {
+      "files": ["**/*.js", "**/*.ts", "**/*.tsx"],
+      "rules": {
+        "simple-import-sort/imports": [
+          "error",
+          {
+            "groups": [
+              // `react` first, `next` second, then packages starting with a character
+              ["^react$", "^next", "^[a-z]"],
+              // Packages starting with `@`
+              ["^@"],
+              // Packages starting with `~`
+              ["^~"],
+              // Imports starting with `../`
+              ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+              // Imports starting with `./`
+              ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+              // Style imports
+              ["^.+\\.s?css$"],
+              // Side effect imports
+              ["^\\u0000"]
+            ]
+          }
+        ]
+      }
+    }
+  ],
   "rules": {
-    "indentation": "tab"
+    "indent": ["error", "tab"],
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
   }
 }
