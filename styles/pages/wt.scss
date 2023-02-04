@@ -4,7 +4,7 @@
   min-height: 100vh;
   font-size: 40px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 
   @media only screen and (max-width: 700px) {
@@ -12,7 +12,7 @@
   }
 
   a {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -40,10 +40,11 @@
   background: url("/images/bg-dark.jpg");
   align-items: center;
   justify-content: center;
+  background-size: cover;
 
   &:hover p {
     opacity: 1;
-    transition: .3s;
+    transition: 0.3s;
   }
 
   p {
@@ -54,7 +55,7 @@
     margin: auto;
     font-size: 14px;
     opacity: 0;
-    transition: .3s;
+    transition: 0.3s;
     align-items: center;
   }
 }
@@ -63,6 +64,8 @@
   display: flex;
   width: 50%;
   background: url("/images/bg-team.jpg");
+  background-position: 50%;
+  background-size: cover;
   align-items: center;
   justify-content: center;
 
@@ -77,6 +80,7 @@
   background: url("/images/bg-blog.jpg");
   align-items: center;
   justify-content: center;
+  background-size: cover;
 
   @media only screen and (max-width: 700px) {
     width: 100%;
@@ -86,7 +90,7 @@
 .iframe {
   width: 640px;
   height: 360px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   box-shadow: 0 0 4px 0;
 
   @media only screen and (max-width: 660px) {
