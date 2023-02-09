@@ -1,67 +1,67 @@
 .container {
-  @media only screen and (max-width: 700px) {
-    width: 100%;
-    transition: .3s;
-  }
+	@media only screen and (max-width: 700px) {
+		width: 100%;
+		transition: .3s;
+	}
 
-  .isfixed & {
-    background: var(--main-color);
-  }
+	.isfixed & {
+		background: var(--main-color);
+	}
 
-  .history-page {
-    background: url(/images/for4.jpg);
-    background-size: cover;
-    background-position-y: 40%;
-    background-position-x: 4%;
+	.history-page {
+		background: url(/images/for4.jpg);
+		background-size: cover;
+		background-position-y: 40%;
+		background-position-x: 4%;
 
-    @media only screen and (max-width: 700px) {
-      background-position-x: 50%;
-    }
-  }
+		@media only screen and (max-width: 700px) {
+			background-position-x: 50%;
+		}
+	}
 
-  &__history-content {
-    padding: 40px 60px 0;
-    color: var(--black-color);
+	&__history-content {
+		padding: 40px 60px 0;
+		color: var(--black-color);
 
-    @media only screen and (max-width: 700px) {
-      padding: 40px 40px 0;
-    }
+		@media only screen and (max-width: 700px) {
+			padding: 40px 40px 0;
+		}
 
-    h2 {
-      font-size: 40px;
-      font-weight: 800;
-    }
+		h2 {
+			font-size: 40px;
+			font-weight: 800;
+		}
 
-    p {
-      margin-bottom: 20px;
-      font-size: 18px;
-      font-weight: 600;
-      line-height: 25px;
-    }
-  }
+		p {
+			margin-bottom: 20px;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 25px;
+		}
+	}
 }
 
 .history-text {
-  padding: 15px;
-  column-count: 2;
-  column-gap: 40px;
+	column-gap: 40px;
+	padding: 15px;
+	column-count: 2;
 
-  @media only screen and (max-width: 700px) {
-    padding: 15px 0;
-    column-count: 1;
-  }
+	@media only screen and (max-width: 700px) {
+		padding: 15px 0;
+		column-count: 1;
+	}
 }
 
 .history-containter-img {
-  width: 100%;
-  height: 700px;
-  background: url(/images/cheers.jpg);
-  background-position: center;
-  background-size: cover;
+	width: 100%;
+	height: 700px;
+	background: url(/images/cheers.jpg);
+	background-position: center;
+	background-size: cover;
 
-  @media only screen and (max-width: 700px) {
-    position: relative;
-    left: -40px;
-    width: calc(100% + 80px);
-  }
+	@media only screen and (max-width: 700px) {
+		position: relative;
+		left: -40px;
+		width: calc(100% + 80px);
+	}
 }

@@ -1,68 +1,68 @@
 /* stylelint-disable selector-pseudo-element-no-unknown */
 
 .contact-page {
-  display: flex;
-  min-height: 100vh;
+	display: flex;
+	min-height: 100vh;
 
-  .column:last-child {
-    background-color: var(--dark-black);
+	.column:last-child {
+		background-color: var(--dark-black);
 
-    @media only screen and (max-width: 1000px) {
-      width: 20%;
-      flex: 1 0;
-    }
+		@media only screen and (max-width: 1000px) {
+			flex: 1 0;
+			width: 20%;
+		}
 
-    @media only screen and (max-width: 700px) {
-      flex: 0 0;
-    }
-  }
+		@media only screen and (max-width: 700px) {
+			flex: 0 0;
+		}
+	}
 
-  .column:first-child {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	.column:first-child {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
-    @media only screen and (max-width: 1000px) {
-      width: 100%;
-      min-height: 100vh;
-      flex: 1 1 auto;
-    }
+		@media only screen and (max-width: 1000px) {
+			flex: 1 1 auto;
+			width: 100%;
+			min-height: 100vh;
+		}
 
-    @media only screen and (max-width: 700px) {
-      padding: 20px;
-    }
-  }
+		@media only screen and (max-width: 700px) {
+			padding: 20px;
+		}
+	}
 }
 
 .contact {
-  position: relative;
-  top: -50px;
+	position: relative;
+	top: -50px;
 
-  &__title {
-    margin-bottom: 30px;
-    font-size: 20px;
-    font-weight: 800;
-    color: var(--dark-black);
-    text-transform: uppercase;
-  }
+	&__title {
+		margin-bottom: 30px;
+		font-size: 20px;
+		font-weight: 800;
+		color: var(--dark-black);
+		text-transform: uppercase;
+	}
 
-  &__container-adress {
-    margin-bottom: 35px;
-  }
+	&__container-adress {
+		margin-bottom: 35px;
+	}
 
-  &__container-phones {
-    margin-bottom: 35px;
-  }
+	&__container-phones {
+		margin-bottom: 35px;
+	}
 
-  p {
-    margin-bottom: 2px;
-  }
+	p {
+		margin-bottom: 2px;
+	}
 
-  button {
-    text-transform: uppercase;
-  }
+	button {
+		text-transform: uppercase;
+	}
 
-  ::input-placeholder {
-    text-transform: uppercase;
-  }
+	::input-placeholder {
+		text-transform: uppercase;
+	}
 }

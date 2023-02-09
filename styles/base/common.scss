@@ -1,191 +1,191 @@
 a {
-  color: var(--black-color);
-  text-decoration: none;
+	color: var(--black-color);
+	text-decoration: none;
 }
 
 body {
-  font-family: Fira Sans, sans-serif;
-  font-family: Lato;
-  color: var(--black-color);
-  background: var(--background-color);
+	font-family: Fira Sans, sans-serif;
+	font-family: Lato;
+	color: var(--black-color);
+	background: var(--background-color);
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	overflow: hidden;
 
-  @media only screen and (max-width: 700px) {
-    height: 100%;
-  }
+	@media only screen and (max-width: 700px) {
+		height: 100%;
+	}
 
-  &.isfixed {
-    height: 100%;
-    min-height: 100vh;
-  }
+	&.isfixed {
+		height: 100%;
+		min-height: 100vh;
+	}
 }
 
 .column {
-  position: relative;
-  width: 50%;
+	position: relative;
+	width: 50%;
 
-  &:first-child {
-    display: flex;
-    flex-wrap: wrap;
-  }
+	&:first-child {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
-  .home &:last-child {
-    background: url(/images/brewery_bg.jpg);
-    background-size: cover;
+	.home &:last-child {
+		background: url(/images/brewery_bg.jpg);
+		background-size: cover;
 
-    &::before {
-      content: "";
-      position: absolute;
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
-  }
+		&::before {
+			content: "";
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	}
 
-  @media only screen and (max-width: 700px) {
-    width: 100%;
-  }
+	@media only screen and (max-width: 700px) {
+		width: 100%;
+	}
 }
 
 h2 {
-  margin: 10px 0 22px;
-  font-size: 34px;
+	margin: 10px 0 22px;
+	font-size: 34px;
 }
 
 button {
-  padding: 10px 15px;
-  margin: 5px 0 30px;
-  font-weight: 600;
-  cursor: pointer;
-  background-color: var(--main-color);
-  border-radius: 5px;
+	padding: 10px 15px;
+	margin: 5px 0 30px;
+	font-weight: 600;
+	cursor: pointer;
+	background-color: var(--main-color);
+	border-radius: 5px;
 }
 
 .container {
-  position: relative;
-  width: calc(100% - 250px);
-  margin: 0 0 0 auto;
-  flex: 0 0 auto;
+	position: relative;
+	flex: 0 0 auto;
+	width: calc(100% - 250px);
+	margin: 0 0 0 auto;
 }
 
 .container-promo {
-  flex: 1 1;
+	flex: 1 1;
 }
 
 .container-beers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .beers__item {
-  position: relative;
-  width: 25%;
-  height: 50vh;
-  transition: .3s;
+	position: relative;
+	width: 25%;
+	height: 50vh;
+	transition: .3s;
 
-  @media only screen and (max-width: 1000px) {
-    width: 50%;
-    height: 40vh;
-    transition: .3s;
-  }
+	@media only screen and (max-width: 1000px) {
+		width: 50%;
+		height: 40vh;
+		transition: .3s;
+	}
 
-  @media only screen and (max-width: 700px) {
-    height: 30vh;
-    transition: .3s;
-  }
+	@media only screen and (max-width: 700px) {
+		height: 30vh;
+		transition: .3s;
+	}
 
-  &:hover img {
-    transform: scale(1.01);
-    transition: .3s;
-  }
+	&:hover img {
+		transform: scale(1.01);
+		transition: .3s;
+	}
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 }
 
 .container-premium-beers {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1;
-  justify-content: space-around;
-  height: 100%;
-  align-items: center;
-  padding: 100px;
+	display: flex;
+	flex: 1 1;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	height: 100%;
+	padding: 100px;
 }
 
 .premium-beers__item {
-  width: 100%;
-  text-align: center;
+	width: 100%;
+	text-align: center;
 
-  &:hover img {
-    transform: scale(1.01);
-    transition: .3s;
-  }
+	&:hover img {
+		transform: scale(1.01);
+		transition: .3s;
+	}
 
-  img {
-    transition: .3s;
-  }
+	img {
+		transition: .3s;
+	}
 }
 
 .container-video {
-  position: relative;
-  height: 50vh;
-  flex: 1 1;
+	position: relative;
+	flex: 1 1;
+	height: 50vh;
 
-  video {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-  }
+	video {
+		width: 100%;
+		object-fit: cover;
+		height: 100%;
+	}
 }
 
 .text-stroke {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--main-color);
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: var(--main-color);
 }
 
 .text-red {
-  color: var(--title-color);
+	color: var(--title-color);
 }
 
 .comeback {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 1;
-  padding: 2px 10px;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border: 2px solid black;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+	padding: 2px 10px;
+	font-size: 12px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border: 2px solid black;
 
-  @media only screen and (max-width: 700px) {
-    right: 20px;
-    left: initial;
-  }
+	@media only screen and (max-width: 700px) {
+		right: 20px;
+		left: initial;
+	}
 
-  &::before {
-    content: "";
-    position: relative;
-    top: 2px;
-    left: -3px;
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background: url(/images/arrow-comeback.png);
-    background-size: cover;
-    transform: rotate(180deg);
-  }
+	&::before {
+		content: "";
+		position: relative;
+		top: 2px;
+		left: -3px;
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		background: url(/images/arrow-comeback.png);
+		background-size: cover;
+		transform: rotate(180deg);
+	}
 }

@@ -1,0 +1,17 @@
+name: code
+
+on: [pull_request]
+
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Stylelint && Lint
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - run: yarn
+      - run: npx stylelint **/*.scss
+      - run: yarn lint
+      - run: echo "🍏 This job's status is ${{ job.status }}."
