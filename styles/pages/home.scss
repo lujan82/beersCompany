@@ -1,207 +1,207 @@
 .home-container {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .discover-beers {
-  display: flex;
-  height: 40vh;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40vh;
+	text-align: center;
 
-  img {
-    width: 100px;
-    margin-bottom: 15px;
-    transition: .3s;
-  }
+	img {
+		width: 100px;
+		margin-bottom: 15px;
+		transition: .3s;
+	}
 
-  &:hover img {
-    transform: scale(1.1);
-    transition: .3s;
-  }
+	&:hover img {
+		transform: scale(1.1);
+		transition: .3s;
+	}
 
-  @media only screen and (max-width: 700px) {
-    height: 25vh;
-  }
+	@media only screen and (max-width: 700px) {
+		height: 25vh;
+	}
 
-  h1 {
-    font-size: 20px;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
+	h1 {
+		font-size: 20px;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
 }
 
 .shop-container {
-  position: relative;
-  display: flex;
-  width: 100%;
-  height: 50vh;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 50vh;
+	text-align: center;
 
-  @media only screen and (max-width: 1000px) {
-    height: 25vh;
-  }
+	@media only screen and (max-width: 1000px) {
+		height: 25vh;
+	}
 
-  @media only screen and (max-width: 700px) {
+	@media only screen and (max-width: 700px) {
 
-    &.login {
-      height: 50vh;
-    }
-  }
+		&.login {
+			height: 50vh;
+		}
+	}
 
-  &:hover img {
-    transform: scale(1.1);
-    transition: .3s;
-  }
+	&:hover img {
+		transform: scale(1.1);
+		transition: .3s;
+	}
 
-  img {
-    transition: .3s;
-  }
+	img {
+		transition: .3s;
+	}
 }
 
 .options-nav {
-  display: flex;
-  width: 100%;
-  height: 50vh;
-  text-align: center;
+	display: flex;
+	width: 100%;
+	height: 50vh;
+	text-align: center;
 
-  @media only screen and (max-width: 1000px) {
-    height: 75vh;
-    flex-direction: column;
-  }
+	@media only screen and (max-width: 1000px) {
+		flex-direction: column;
+		height: 75vh;
+	}
 
-  a {
-    width: 100%;
-  }
+	a {
+		width: 100%;
+	}
 
-  h2 {
-    font-size: 20px;
-    font-weight: 800;
-    color: #FFFFFF;
-    text-transform: uppercase;
-  }
+	h2 {
+		font-size: 20px;
+		font-weight: 800;
+		color: #FFFFFF;
+		text-transform: uppercase;
+	}
 
-  .column {
-    @media only screen and (max-width: 1000px) {
-      width: 100%;
+	.column {
+		@media only screen and (max-width: 1000px) {
+			width: 100%;
 
-      &:first-child {
-        height: 25vh;
-      }
-    }
-  }
+			&:first-child {
+				height: 25vh;
+			}
+		}
+	}
 }
 
 .option-shop {
-  position: relative;
-  display: flex;
-  color: var(--main-color);
-  transition: .3s;
-  align-items: center;
-  justify-content: center;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--main-color);
+	transition: .3s;
 
-  &:hover img {
-    transform: scale(1.1);
-    transition: .3s;
-  }
+	&:hover img {
+		transform: scale(1.1);
+		transition: .3s;
+	}
 
-  img {
-    width: 120px;
-    transition: .3s;
-  }
+	img {
+		width: 120px;
+		transition: .3s;
+	}
 }
 
 .option-history {
-  position: relative;
-  display: flex;
-  height: 25vh;
-  background: url(/images/explore-bg.jpg);
-  background-color: #D0AF90;
-  background-size: cover;
-  transition: .3s;
-  align-items: center;
-  justify-content: center;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25vh;
+	background: url(/images/explore-bg.jpg);
+	background-color: #D0AF90;
+	background-size: cover;
+	transition: .3s;
 
-  &:hover img {
-    transform: scale(1.1);
-    transition: .3s;
-  }
+	&:hover img {
+		transform: scale(1.1);
+		transition: .3s;
+	}
 
-  img {
-    width: 120px;
-    transition: .3s;
-  }
+	img {
+		width: 120px;
+		transition: .3s;
+	}
 }
 
 .option-jobs {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 25vh;
-  background: url(/images/join-bg.jpg);
-  background-color: #202218;
-  background-position: right center;
-  background-size: cover;
-  transition: .3s;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25vh;
+	background: url(/images/join-bg.jpg);
+	background-color: #202218;
+	background-position: right center;
+	background-size: cover;
+	transition: .3s;
 
-  &:hover img {
-    transform: scale(1.1);
-    transition: .3s;
-  }
+	&:hover img {
+		transform: scale(1.1);
+		transition: .3s;
+	}
 
-  img {
-    max-width: 80px;
-    transition: .3s;
-  }
+	img {
+		max-width: 80px;
+		transition: .3s;
+	}
 }
 
 .option-premium {
-  position: relative;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background: url(/images/visite-bg.jpg);
-  background-color: #3D201E;
-  background-size: cover;
-  transition: .3s;
-  align-items: center;
-  justify-content: center;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background: url(/images/visite-bg.jpg);
+	background-color: #3D201E;
+	background-size: cover;
+	transition: .3s;
 
-  &:hover img {
-    transform: scale(1.1);
-    transition: .3s;
-  }
+	&:hover img {
+		transform: scale(1.1);
+		transition: .3s;
+	}
 
-  img {
-    width: 100px;
-    transition: .3s;
-  }
+	img {
+		width: 100px;
+		transition: .3s;
+	}
 }
 
 .home {
 
-  > .column:first-child {
-    @media only screen and (max-width: 1000px) {
-      width: 60%;
-    }
+	> .column:first-child {
+		@media only screen and (max-width: 1000px) {
+			width: 60%;
+		}
 
-    @media only screen and (max-width: 700px) {
-      width: 100%;
-      height: 25vh;
-    }
-  }
+		@media only screen and (max-width: 700px) {
+			width: 100%;
+			height: 25vh;
+		}
+	}
 
-  > .column:last-child {
-    @media only screen and (max-width: 1000px) {
-      width: 40%;
-    }
+	> .column:last-child {
+		@media only screen and (max-width: 1000px) {
+			width: 40%;
+		}
 
-    @media only screen and (max-width: 700px) {
-      width: 100%;
-    }
-  }
+		@media only screen and (max-width: 700px) {
+			width: 100%;
+		}
+	}
 }

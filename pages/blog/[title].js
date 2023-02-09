@@ -45,10 +45,7 @@ const PostDetail = () => {
 					<Link href="/blog" legacyBehavior>
 						<a className="comeback">Back</a>
 					</Link>
-					<div
-						className="head-page"
-						style={{ backgroundImage: `url(${post.img})` }}
-					>
+					<div className="head-page" style={{ backgroundImage: `url(${post.img})` }}>
 						<div className="container__head">
 							<div>
 								<h1>BLOG</h1>
@@ -62,31 +59,11 @@ const PostDetail = () => {
 						<p className="post__text">{post.content}</p>
 					</div>
 					<div className="post__prev-next-container">
-						<Link
-							href={nextPrev.prev !== undefined ? nextPrev.prev.path : ""}
-							legacyBehavior
-						>
-							<a
-								className={
-									nextPrev.prev === undefined ? "inactive" : "post__prev-next"
-								}
-							>
-								{" "}
-                Previous{" "}
-							</a>
+						<Link href={nextPrev.prev !== undefined ? nextPrev.prev.path : ""} legacyBehavior>
+							<a className={nextPrev.prev === undefined ? "inactive" : "post__prev-next"}> Previous </a>
 						</Link>
-						<Link
-							href={nextPrev.next !== undefined ? nextPrev.next.path : ""}
-							legacyBehavior
-						>
-							<a
-								className={
-									nextPrev.next === undefined ? "inactive" : "post__prev-next"
-								}
-							>
-								{" "}
-                Next{" "}
-							</a>
+						<Link href={nextPrev.next !== undefined ? nextPrev.next.path : ""} legacyBehavior>
+							<a className={nextPrev.next === undefined ? "inactive" : "post__prev-next"}> Next </a>
 						</Link>
 					</div>
 				</div>

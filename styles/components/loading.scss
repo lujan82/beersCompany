@@ -1,466 +1,466 @@
 .loading {
-  position: relative;
-  display: flex;
-  width: calc(100% - 250px);
-  margin: 0 0 0 auto;
-  flex: 0 0 auto;
-  align-items: center;
-  justify-content: center;
-  background: #58585894;
+	position: relative;
+	display: flex;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: calc(100% - 250px);
+	margin: 0 0 0 auto;
+	background: #58585894;
 
-  &__container {
-    position: relative;
-    top: -200px;
-    left: -200px;
-    width: 100px;
-    height: 100px;
-  }
+	&__container {
+		position: relative;
+		top: -200px;
+		left: -200px;
+		width: 100px;
+		height: 100px;
+	}
 }
 
 #glass {
-  position: absolute;
-  top: 200px;
-  left: 200px;
-  width: 70px;
-  height: 90px;
-  overflow: hidden;
-  background: transparent;
-  border: solid 3.5px white;
-  border-top: none;
-  border-radius: 0 0 10px 10px;
-  transform: rotate(-20deg);
-  animation: glass 10s infinite;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	width: 70px;
+	height: 90px;
+	overflow: hidden;
+	background: transparent;
+	border: solid 3.5px white;
+	border-top: none;
+	border-radius: 0 0 10px 10px;
+	transform: rotate(-20deg);
+	animation: glass 10s infinite;
 }
 
 #poignet {
-  position: absolute;
-  top: 192px;
-  left: 270px;
-  width: 30px;
-  height: 55px;
-  background: transparent;
-  border: solid 3.5px white;
-  border-left: none;
-  border-radius: 0 16px 16px 0;
-  transform: rotate(-20deg);
-  animation: poignet 10s infinite;
+	position: absolute;
+	top: 192px;
+	left: 270px;
+	width: 30px;
+	height: 55px;
+	background: transparent;
+	border: solid 3.5px white;
+	border-left: none;
+	border-radius: 0 16px 16px 0;
+	transform: rotate(-20deg);
+	animation: poignet 10s infinite;
 }
 
 #beer {
-  position: absolute;
-  top: 2px;
-  left: 1px;
-  width: 73px;
-  height: 84px;
-  overflow: hidden;
-  background: transparent;
-  border-radius: 0 0 5px 5px;
+	position: absolute;
+	top: 2px;
+	left: 1px;
+	width: 73px;
+	height: 84px;
+	overflow: hidden;
+	background: transparent;
+	border-radius: 0 0 5px 5px;
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 83px;
-    left: -190px;
-    width: 250px;
-    height: 250px;
-    background: #E8B504;
-    transform: rotate(40deg);
-    animation: beer 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		top: 83px;
+		left: -190px;
+		width: 250px;
+		height: 250px;
+		background: #E8B504;
+		transform: rotate(40deg);
+		animation: beer 10s infinite;
+	}
 }
 
 #mousse_1 {
-  position: absolute;
-  top: 192px;
-  left: 198px;
-  z-index: 4;
+	position: absolute;
+	top: 192px;
+	left: 198px;
+	z-index: 4;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 10px;
-    width: 17px;
-    height: 17px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse 10s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 5px;
+		left: 10px;
+		width: 17px;
+		height: 17px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse 10s infinite;
+	}
 }
 
 #mousse_2 {
-  position: absolute;
-  top: 192px;
-  left: 212px;
-  z-index: 4;
+	position: absolute;
+	top: 192px;
+	left: 212px;
+	z-index: 4;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: 10px;
-    width: 17px;
-    height: 17px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse 10s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: -5px;
+		left: 10px;
+		width: 17px;
+		height: 17px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse 10s infinite;
+	}
 }
 
 #mousse_3 {
-  position: absolute;
-  top: 192px;
-  left: 228px;
-  z-index: 4;
+	position: absolute;
+	top: 192px;
+	left: 228px;
+	z-index: 4;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    width: 17px;
-    height: 17px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse 10s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 10px;
+		left: 15px;
+		width: 17px;
+		height: 17px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse 10s infinite;
+	}
 }
 
 #mousse_4 {
-  position: absolute;
-  top: 192px;
-  left: 242px;
-  z-index: 4;
+	position: absolute;
+	top: 192px;
+	left: 242px;
+	z-index: 4;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 10px;
-    width: 17px;
-    height: 17px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse 10s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 5px;
+		left: 10px;
+		width: 17px;
+		height: 17px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse 10s infinite;
+	}
 }
 
 #mousse_5 {
-  position: absolute;
-  top: 192px;
-  left: 257px;
-  z-index: 4;
-  animation: mousse 10s infinite;
+	position: absolute;
+	top: 192px;
+	left: 257px;
+	z-index: 4;
+	animation: mousse 10s infinite;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border-radius: 50%;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: white;
+		border-radius: 50%;
+	}
 }
 
 #mousse_volante {
-  position: absolute;
-  top: 185px;
-  left: 212px;
-  z-index: 4;
+	position: absolute;
+	top: 185px;
+	left: 212px;
+	z-index: 4;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_volante 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_volante 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 40px;
-    width: 8px;
-    height: 8px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_volante 10s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 15px;
+		left: 40px;
+		width: 8px;
+		height: 8px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_volante 10s infinite;
+	}
 }
 
 #mousse_interieur {
-  position: absolute;
-  top: 255px;
-  left: 218px;
-  z-index: 4;
-  opacity: .9;
+	position: absolute;
+	top: 255px;
+	left: 218px;
+	z-index: 4;
+	opacity: .9;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_interieur 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 6px;
+		height: 6px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_interieur 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 30px;
-    width: 4px;
-    height: 4px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_interieur 5s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 15px;
+		left: 30px;
+		width: 4px;
+		height: 4px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_interieur 5s infinite;
+	}
 }
 
 #mousse_interieur_2 {
-  position: absolute;
-  top: 235px;
-  left: 225px;
-  z-index: 4;
-  opacity: .9;
+	position: absolute;
+	top: 235px;
+	left: 225px;
+	z-index: 4;
+	opacity: .9;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_interieur 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 7px;
+		height: 7px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_interieur 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 17px;
-    width: 3px;
-    height: 3px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_interieur 5s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 5px;
+		left: 17px;
+		width: 3px;
+		height: 3px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_interieur 5s infinite;
+	}
 }
 
 #mousse_interieur_3 {
-  position: absolute;
-  top: 245px;
-  left: 232px;
-  z-index: 4;
-  opacity: .9;
+	position: absolute;
+	top: 245px;
+	left: 232px;
+	z-index: 4;
+	opacity: .9;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 9px;
-    height: 9px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_interieur 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 9px;
+		height: 9px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_interieur 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 8px;
-    left: 12px;
-    width: 5px;
-    height: 5px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_interieur 5s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 8px;
+		left: 12px;
+		width: 5px;
+		height: 5px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_interieur 5s infinite;
+	}
 }
 
 #mousse_interieur_4 {
-  position: absolute;
-  top: 241px;
-  left: 238px;
-  z-index: 4;
-  opacity: .9;
+	position: absolute;
+	top: 241px;
+	left: 238px;
+	z-index: 4;
+	opacity: .9;
 
-  &::before {
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_interieur 10s infinite;
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		width: 2px;
+		height: 2px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_interieur 10s infinite;
+	}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 28px;
-    left: 2px;
-    width: 5.5px;
-    height: 5.5px;
-    background: white;
-    border-radius: 50%;
-    animation: mousse_interieur 5s infinite;
-  }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 28px;
+		left: 2px;
+		width: 5.5px;
+		height: 5.5px;
+		background: white;
+		border-radius: 50%;
+		animation: mousse_interieur 5s infinite;
+	}
 }
 
 /* ANIMATIONS */
 
 @keyframes beer {
 
-  0% {
-    transform: translateY(-5);
-  }
+	0% {
+		transform: translateY(-5);
+	}
 
-  17% {
-    transform: translateY(-82px);
-  }
+	17% {
+		transform: translateY(-82px);
+	}
 
-  100% {
-    transform: translateY(-82px);
-  }
+	100% {
+		transform: translateY(-82px);
+	}
 }
 
 @keyframes glass {
 
-  0% {
-    transform: rotate(-20deg);
-  }
+	0% {
+		transform: rotate(-20deg);
+	}
 
-  17% {
-    transform: rotate(0deg);
-  }
+	17% {
+		transform: rotate(0deg);
+	}
 
-  100% {
-    transform: rotate(0deg);
-  }
+	100% {
+		transform: rotate(0deg);
+	}
 }
 
 @keyframes poignet {
 
-  0% {
-    transform: rotate(-20deg);
-  }
+	0% {
+		transform: rotate(-20deg);
+	}
 
-  17% {
-    transform: rotate(0deg) translateX(5px) translateY(20px);
-  }
+	17% {
+		transform: rotate(0deg) translateX(5px) translateY(20px);
+	}
 
-  100% {
-    transform: rotate(0deg) translateX(5px) translateY(20px);
-  }
+	100% {
+		transform: rotate(0deg) translateX(5px) translateY(20px);
+	}
 }
 
 @keyframes mousse {
 
-  0% {
-    transform: scale(0);
-  }
+	0% {
+		transform: scale(0);
+	}
 
-  10% {
-    transform: scale(0);
-  }
+	10% {
+		transform: scale(0);
+	}
 
-  20% {
-    transform: scale(1);
-  }
+	20% {
+		transform: scale(1);
+	}
 }
 
 @keyframes mousse_volante {
 
-  0% {
-    transform: scale(0)
-      translateY(0);
-  }
+	0% {
+		transform: scale(0)
+			translateY(0);
+	}
 
-  10% {
-    transform: scale(0)
-      translateY(0);
-  }
+	10% {
+		transform: scale(0)
+			translateY(0);
+	}
 
-  20% {
-    transform: scale(1) translateY(-20px);
-  }
+	20% {
+		transform: scale(1) translateY(-20px);
+	}
 
-  40% {
-    opacity: 0;
-  }
+	40% {
+		opacity: 0;
+	}
 
-  100% {
-    opacity: 0;
-    transform: scale(1) translateY(-80px);
-  }
+	100% {
+		opacity: 0;
+		transform: scale(1) translateY(-80px);
+	}
 }
 
 @keyframes mousse_interieur {
 
-  0% {
-    transform: scale(0)
-      translateY(0);
-  }
+	0% {
+		transform: scale(0)
+			translateY(0);
+	}
 
-  20% {
-    transform: scale(0)
-      translateY(0);
-  }
+	20% {
+		transform: scale(0)
+			translateY(0);
+	}
 
-  40% {
-    transform: scale(1) translateY(-60px);
-  }
+	40% {
+		transform: scale(1) translateY(-60px);
+	}
 
-  50% {
-    opacity: 0;
-  }
+	50% {
+		opacity: 0;
+	}
 
-  100% {
-    opacity: 0;
-    transform: scale(1) translateY(-60px);
-  }
+	100% {
+		opacity: 0;
+		transform: scale(1) translateY(-60px);
+	}
 }

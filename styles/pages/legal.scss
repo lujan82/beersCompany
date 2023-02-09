@@ -1,46 +1,46 @@
 .legal {
-  display: flex;
-  height: 100vh;
-  color: var(--main-color);
-  text-align: center;
-  background: url(https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background: url(https://images.pexels.com/photos/3109819/pexels-photo-3109819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-size: cover;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	color: var(--main-color);
+	text-align: center;
+	background: url(https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background: url(https://images.pexels.com/photos/3109819/pexels-photo-3109819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
 
-  h1 {
-    margin: 35px 0 30px;
-    font-size: 40px;
-  }
+	h1 {
+		margin: 35px 0 30px;
+		font-size: 40px;
+	}
 
-  & > div {
-    position: relative;
-    bottom: 150px;
+	& > div {
+		position: relative;
+		bottom: 150px;
 
-    @media only screen and (max-width: 700px) {
-      bottom: 0;
-    }
-  }
+		@media only screen and (max-width: 700px) {
+			bottom: 0;
+		}
+	}
 
-  &__options {
-    font-size: 80px;
+	&__options {
+		font-size: 80px;
 
-    span {
-      padding: 5px 20px;
-      margin: 0 35px;
-      cursor: pointer;
-      border: 4px solid transparent;
+		span {
+			padding: 5px 20px;
+			margin: 0 35px;
+			cursor: pointer;
+			border: 4px solid transparent;
 
-      @media only screen and (max-width: 700px) {
-        margin: 0 20px;
-        font-size: 40px;
-      }
+			@media only screen and (max-width: 700px) {
+				margin: 0 20px;
+				font-size: 40px;
+			}
 
-      &:hover {
-        border-color: var(--main-color);
-      }
-    }
-  }
+			&:hover {
+				border-color: var(--main-color);
+			}
+		}
+	}
 }

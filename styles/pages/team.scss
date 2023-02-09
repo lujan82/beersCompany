@@ -1,71 +1,71 @@
 .container-team {
-  position: relative;
-  display: flex;
-  min-height: 100vh;
+	position: relative;
+	display: flex;
+	min-height: 100vh;
 
-  @media only screen and (max-width: 1000px) {
-    flex-wrap: wrap;
-  }
+	@media only screen and (max-width: 1000px) {
+		flex-wrap: wrap;
+	}
 }
 
 .team-item {
-  display: flex;
-  width: 33.333%;
-  font-size: 32px;
-  font-weight: 600;
-  color: #FFFFFF;
-  text-align: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 33.333%;
+	font-size: 32px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-align: center;
 
-  @media only screen and (max-width: 1000px) {
-    width: 100%;
-  }
+	@media only screen and (max-width: 1000px) {
+		width: 100%;
+	}
 
-  &:hover .team-hover {
-    opacity: 1;
-  }
+	&:hover .team-hover {
+		opacity: 1;
+	}
 
-  &__subtitle {
-    display: block;
-    width: 100%;
-    font-size: 18px;
-  }
+	&__subtitle {
+		display: block;
+		width: 100%;
+		font-size: 18px;
+	}
 
-  .team-hover {
-    opacity: 0;
-    transition: .3s;
+	.team-hover {
+		opacity: 0;
+		transition: .3s;
 
-    @media only screen and (max-width: 700px) {
-      opacity: 1;
-    }
-  }
+		@media only screen and (max-width: 700px) {
+			opacity: 1;
+		}
+	}
 
-  &:nth-child(1) {
-    background: url("/images/founder2.jpg");
-    background-position: center top;
+	&:nth-child(1) {
+		background: url("/images/founder2.jpg");
+		background-position: center top;
 
-    @media only screen and (max-width: 1000px) {
-      background-position: center 30%;
-    }
-  }
+		@media only screen and (max-width: 1000px) {
+			background-position: center 30%;
+		}
+	}
 
-  &:nth-child(2) {
-    background: url("/images/founder.jpg");
-    background-position: center bottom;
+	&:nth-child(2) {
+		background: url("/images/founder.jpg");
+		background-position: center bottom;
 
-    @media only screen and (max-width: 1000px) {
-      background-position: center;
-    }
-  }
+		@media only screen and (max-width: 1000px) {
+			background-position: center;
+		}
+	}
 
-  &:nth-child(3) {
-    background: url("/images/founder3.jpg");
-    background-position: center top;
+	&:nth-child(3) {
+		background: url("/images/founder3.jpg");
+		background-position: center top;
 
-    @media only screen and (max-width: 1000px) {
-      background-position: center 10%;
-    }
-  }
+		@media only screen and (max-width: 1000px) {
+			background-position: center 10%;
+		}
+	}
 }

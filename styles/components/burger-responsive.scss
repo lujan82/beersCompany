@@ -1,9 +1,9 @@
 .burger-responsive {
-  z-index: 10;
-  display: none;
+	z-index: 10;
+	display: none;
 
-  @media only screen and (max-width: 700px) {
-    position: fixed;
-    display: block;
-  }
+	@media only screen and (max-width: 700px) {
+		position: fixed;
+		display: block;
+	}
 }
