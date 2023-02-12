@@ -6,11 +6,11 @@ import { absoluteUrl, getAppCookies, verifyToken } from "../middleware/utils"
 const PremiumBeers = props => {
 	return (
 		<MainLayout props={props}>
-			<div className="container-premium-beers">
+			<ul className="container-premium-beers">
 				{BEER_PREMIUM.map((i, index) => (
 					<BeersList i={i} key={index} isPremium />
 				))}
-			</div>
+			</ul>
 		</MainLayout>
 	)
 }

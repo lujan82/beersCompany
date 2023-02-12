@@ -30,11 +30,6 @@ export const ROUTER = [
 		text: "wt",
 	},
 	{
-		id: 6,
-		href: "/wt",
-		text: "wt",
-	},
-	{
 		id: 7,
 		href: "/contact",
 		text: "contact",
