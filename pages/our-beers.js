@@ -6,11 +6,11 @@ import { absoluteUrl, getAppCookies, verifyToken } from "../middleware/utils"
 const OurBeers = props => {
 	return (
 		<MainLayout props={props}>
-			<div className="container-beers">
+			<ul className="container-beers">
 				{BEER.map((i, index) => (
 					<BeersList i={i} key={index} />
 				))}
-			</div>
+			</ul>
 		</MainLayout>
 	)
 }
